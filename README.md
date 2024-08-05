@@ -17,7 +17,6 @@ Our motivation stems from a shared passion for design and a commitment to helpin
 - **Responsive Design**: The website is fully responsive, ensuring it looks great on all devices.
 - **Service Packages**: Detailed descriptions of our service packages.
 - **Book a Call**: Integrated Google Calendar to allow clients to easily schedule consultation calls.
-- **Empowering Content**: Informative content that highlights our commitment to helping startups and small businesses.
 
 ## Technologies Used
 
