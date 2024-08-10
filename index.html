@@ -66,7 +66,7 @@
                 <div class="p-4">
                     <p class="text-gray-600 mb-4"><strong>Duration:</strong> 1 Week</p>
                     <ul class="list-disc list-inside text-gray-600 space-y-2">
-                        <li>Full Product Evaluation</li>
+                        <li>Full Product Evaluation & Recommendations</li>
                         <li>Tailored UX Research Plan</li>
                         <li>Fleshed-out Wireframes & Testing</li>
                     </ul>
@@ -82,37 +82,45 @@
                 <div class="p-4">
                     <p class="text-gray-600 mb-4"><strong>Duration:</strong> 1 Week +</p>
                     <ul class="list-disc list-inside text-gray-600 space-y-2">
-                        <li>Expert Product Evaluation</li>
+                        <li>Comprehensive Product Evaluation & Expert Insights</li>
                         <li>Detailed UX Research Plan</li>
                         <li>Advanced Wireframes & Testing</li>
+                        <li>Future Research Plans & Project Roadmap</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-      <!-- Book a Call Section -->
+        <!-- Book a Call Section -->
         <section class="bg-white rounded-lg shadow-lg p-6 w-full max-w-3xl mx-auto mb-12">
             <h2 class="text-2xl font-bold text-gray-800 text-center mb-4">Book a Call</h2>
             <p class="text-gray-600 text-center mb-6">Schedule a consultation call to discuss your project and how we can help you achieve your goals.</p>
             <div class="text-center">
                 <iframe id="calendar-iframe" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ36yUhoyva6ukMeREeuwkkRUmLiEn4YINqwIjvY9pOgERBESp3EXVh5HwW08KnLaUEZTJEi4qrP"
-                        style="border: 0" width="100%" height="800px" frameborder="0" scrolling="no" class="rounded-lg shadow-lg calendar-iframe"></iframe>
+                        style="border: 0" width="100%" height="1000px" frameborder="0" scrolling="no" class="rounded-lg shadow-lg calendar-iframe"></iframe>
             </div>
         </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-6 w-full">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2024 Callistemon.design. All rights reserved.</p>
+                <p>Contact us: info@callistemon.design | +1-234-567-8900</p>
+            </div>
+        </footer>
     </div>
     <script>
         function adjustIframeHeight() {
             var iframe = document.getElementById('calendar-iframe');
             if (window.innerWidth <= 640) {
-                iframe.style.height = '1000px';
+                iframe.style.height = '1200px';
             } else {
-                iframe.style.height = '800px';
+                iframe.style.height = '1000px';
             }
         }
 
         window.addEventListener('resize', adjustIframeHeight);
         window.addEventListener('load', adjustIframeHeight);
     </script>
-    
 </body>
 </html>
