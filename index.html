@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #f3e7e9 25%, #e3eeff 75%);
+            background: linear-gradient(135deg, #FFFFFF 0%, #FFDCCA 47%, #FEB5BC 100%);
             min-height: 100vh;
             background-attachment: fixed;
             margin: 0;
@@ -36,11 +36,21 @@
             background-color: transparent;
             padding: 2rem 0;
         }
+        /* Button styles based on the redesign */
+        .btn-silver {
+            background-color: #f0bcbd;
+        }
+        .btn-gold {
+            background-color: #fdefcf;
+        }
+        .btn-platinum {
+            background-color: #fcb8b8;
+        }
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="text-center py-16 bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200">
+    <!-- Hero Section with the gradient background -->
+    <section class="text-center py-16 bg-gradient-to-r from-white via-pink-200 to-pink-500 opacity-20">
         <div class="container mx-auto px-4 sm:px-6">
             <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">Callistemon.design</h1>
             <p class="text-xl sm:text-2xl font-light text-gray-700 italic mb-6">Designing Your Vision</p>
@@ -67,6 +77,7 @@
                             <li>Basic UX Research Plan</li>
                             <li>Sample Wireframes</li>
                         </ul>
+                        <a href="#" class="mt-4 block text-center btn-silver text-white py-2 rounded-lg">Book a Call</a>
                     </div>
                 </div>
                 <!-- Gold Package -->
@@ -82,6 +93,7 @@
                             <li>Tailored UX Research Plan</li>
                             <li>Fleshed-out Wireframes</li>
                         </ul>
+                        <a href="#" class="mt-4 block text-center btn-gold text-white py-2 rounded-lg">Book a Call</a>
                     </div>
                 </div>
                 <!-- Platinum Package -->
@@ -97,6 +109,7 @@
                             <li>Detailed UX Research Plan</li>
                             <li>Advanced Wireframes & Testing</li>
                         </ul>
+                        <a href="#" class="mt-4 block text-center btn-platinum text-white py-2 rounded-lg">Book a Call</a>
                     </div>
                 </div>
             </div>
@@ -116,6 +129,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Footer Section -->
     <footer>
